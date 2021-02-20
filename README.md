@@ -1,0 +1,2 @@
+# lint
+Common eslint config
