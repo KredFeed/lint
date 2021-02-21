@@ -1,0 +1,34 @@
+{
+  "name": "@kredfeed/eslint-config-kredfeed",
+  "version": "0.0.1",
+  "description": "Common eslint config for kredfeed",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KredFeed/lint.git"
+  },
+  "author": "KredFeed",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KredFeed/lint/issues"
+  },
+  "homepage": "https://github.com/KredFeed/lint#readme",
+  "dependencies": {
+    "@typescript-eslint/parser": "^4.15.1",
+    "eslint-import-resolver-typescript": "^2.4.0"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.15.1",
+    "eslint": "^7.20.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jest": "^24.1.5"
+  },
+  "peerDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.15.1",
+    "eslint": "^7.20.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jest": "^24.1.5"
+  },
+  "keywords": []
+}
