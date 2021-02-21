@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "esnext",
+    "allowSyntheticDefaultImports": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "noUnusedLocals": true,
+    "lib": ["esnext"],
+    "declaration": false,
+    "noImplicitAny": false,
+    "removeComments": false,
+    "baseUrl": ".",
+    "esModuleInterop": true,
+  },
+  "exclude": ["node_modules"],
+}
