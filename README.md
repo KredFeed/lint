@@ -5,5 +5,5 @@ Common eslint config for KredFeed
 
 ## Install
 
-`npm install -D elint-config-kredfeed`
+`npm install -D @kredfeed/eslint-config-kredfeed`
 
