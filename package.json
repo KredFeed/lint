@@ -1,6 +1,6 @@
 {
   "name": "@kredfeed/eslint-config-kredfeed",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Common eslint config for kredfeed",
   "main": "index.js",
   "scripts": {
