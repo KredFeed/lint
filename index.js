@@ -42,6 +42,7 @@ module.exports = {
     'jest/no-disabled-tests': 'warn',
     'jest/no-focused-tests': 'warn',
     'jest/no-identical-title': 'error',
+    'jest/expect-expect': [ 'error', { 'assertFunctionNames': ['expect'] }],
     'func-style': ['error', 'expression'],
     'comma-dangle': ['error', 'always-multiline'],
     'eqeqeq': ['error', 'always'],
