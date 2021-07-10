@@ -1,6 +1,5 @@
 const path = require('path');
 
-
 module.exports = {
   root: true,
   parser: '@typescript-eslint/parser',
@@ -36,8 +35,9 @@ module.exports = {
     '@typescript-eslint/ban-ts-comment': 'warn',
     '@typescript-eslint/no-unused-vars': ['error'],
     '@typescript-eslint/no-empty-interface': ['error',{ 'allowSingleExtends': true }],
-    'import/newline-after-import': ['error', { 'count': 2 }],
-    'no-multiple-empty-lines': ['error', { 'max': 2, 'maxEOF': 1, 'maxBOF': 0 }],
+    'import/newline-after-import': ['error', { 'count': 1 }],
+    'no-multi-spaces': 'error',
+    'no-multiple-empty-lines': ['error', { 'max': 1, 'maxEOF': 1, 'maxBOF': 0 }],
     'no-trailing-spaces': 'error',
     'jest/no-disabled-tests': 'warn',
     'jest/no-focused-tests': 'warn',

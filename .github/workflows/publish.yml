@@ -16,6 +16,7 @@ jobs:
         node-version: '14.x'
         registry-url: 'https://npm.pkg.github.com'
         scope: '@kredfeed'
+        cache: 'npm'
     - run: npm ci
     - run: npm publish
       env:
